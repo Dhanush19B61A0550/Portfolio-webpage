@@ -1,0 +1,87 @@
+.cst-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.form-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sub-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.rect{
+    width: 100px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #FDC435;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    height: 445px;
+    gap: 24px;
+}
+
+.form-inputs div{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+.project{
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+    background-color: #FFFFFF;
+}
+
+.project1{
+    height: 160px;
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+    background-color: #FFFFFF;
+}
+
+.cst-btn{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: flex-end;
+}
+
+button{
+    width: 81px;
+    height: 43px;
+    border-radius: 8px;
+    padding: 8px 24px;
+    background-color: #FDC435;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .cst-form{
+        overflow: hidden;
+    }
+    .form-inputs{
+        width: 100%;
+    }
+}
